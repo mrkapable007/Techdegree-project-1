@@ -76,7 +76,7 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.1) rotate(5deg);
 }
 .tag {
   background-color: #efefef;
@@ -147,6 +147,15 @@ ul.my-work {
   padding: 8px;
   background-color:#222;
   color: white;
+}
+
+.showcase-work {
+  color: #0399ff;
+}
+
+.showcase-work:hover {
+  color: #ff9904;
+  cursor: pointer;
 }
 
 .dubaiaudio-image, .vicsenshop-image {
