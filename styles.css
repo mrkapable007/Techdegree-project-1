@@ -75,6 +75,7 @@ header .profile-image {
   border: 3px solid white;
   transition: all .5s;
 }
+
 header .profile-image:hover {
   transform: scale(1.1) rotate(5deg);
 }
@@ -92,7 +93,7 @@ header .profile-image:hover {
   background-color: #222;
   color: white;
 }
-.card {
+.section {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
@@ -102,7 +103,7 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
-.card:hover {
+.section:hover {
   border-color: #ff99ff;
 }
 
@@ -160,7 +161,7 @@ ul.my-work {
 
 .dubaiaudio-image, .vicsenshop-image {
   width: 36%;
-  display: flexbox;
+  display: inline-flex;
   justify-content: space-evenly;
 }
 
@@ -241,10 +242,8 @@ a.social:hover {
 @media screen and (min-width: 720px) {
   
   .flex {
-      display: -ms-flexbox;      /* TWEENER - IE 10 */
-      display: flex; 
+      display: flex;      /* TWEENER - IE 10 */ 
       max-width: 1200px;
-      -ms-flex-pack: distribute;
       justify-content: space-around;
       margin: 0 auto;
   }
@@ -283,7 +282,7 @@ a.social:hover {
 }
 
  /* Style the navigation bar for Experience*/
- .navbar {
+ .nav-tag {
   width: 100%;
   background-color: black;
   overflow: auto;
@@ -291,7 +290,7 @@ a.social:hover {
 }
 
 /* Navbar links */
-.navbar a {
+.nav-tag a {
   float: left;
   text-align: center;
   padding: 12px;
@@ -301,7 +300,7 @@ a.social:hover {
 }
 
 /* Navbar links on mouse-over */
-.navbar a:hover {
+.nav-tag a:hover {
   background-color: #000;
 }
 
@@ -345,4 +344,10 @@ top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
 color: white;
+}
+
+/*about page is here */
+
+.about-section {
+  padding-top: 100px;
 }
