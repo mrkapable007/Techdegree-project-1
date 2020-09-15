@@ -93,7 +93,7 @@ header .profile-image:hover {
   background-color: #222;
   color: white;
 }
-.section {
+.card {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
@@ -103,7 +103,7 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
-.section:hover {
+.card:hover {
   border-color: #ff99ff;
 }
 
